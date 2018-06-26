@@ -8,13 +8,12 @@ class  Action {
      */
     constructor(actionName, defeats) {
         /**
-         * Name of the action
          * @property {string} name - Name of the action
          */
         this.name = actionName;
         
         /**
-         * List of the names of the other actions that are defeated by this action
+         * 
          * @property {string[]} defeatList - Name list of the other actions
          */
         this.defeatList = [].concat(defeats);
