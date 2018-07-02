@@ -16,7 +16,8 @@ export const RPS = {
         new Action("paper", "rock"),
         new Action("scissors", "paper")
     ],
-    fullName: "Rock Paper Scissors"
+    fullName: "Rock Paper Scissors",
+    name: "RPS"
 };
 
 /**
@@ -31,7 +32,8 @@ export const RPSSL = {
         new Action("spock", ["scissors", "rock"]),
         new Action("lizard", ["spock", "paper"])
     ],
-    fullName: "Rock Paper Scissors Spock Lizard"
+    fullName: "Rock Paper Scissors Spock Lizard",
+    name: "RPSSL"
 };
 
 export default {RPS, RPSSL};

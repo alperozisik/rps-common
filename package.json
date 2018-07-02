@@ -6,7 +6,7 @@
   "scripts": {
     "test": "node test/basic.js",
     "docs": "npx jsdoc2md src/*.js --heading-depth 1 > docs/API.md; echo ",
-    "build": "webpack"
+    "build": "npx webpack"
   },
   "repository": {
     "type": "git",
@@ -29,7 +29,7 @@
     "npm": ">=6.1.0"
   },
   "devDependencies": {
-     "chai": "^4.1.2",
+    "chai": "^4.1.2",
     "clean-webpack-plugin": "^0.1.19",
     "jsdoc-to-markdown": "^4.0.1",
     "webpack": "^4.12.1",
